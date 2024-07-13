@@ -57,7 +57,7 @@ systemctl start tomcat
 systemctl enable tomcat
 
 # Clone the repository, build and deploy the application
-git clone -b main https://github.com/hkhcoder/vprofile-project.git
+git clone -b main https://github.com/imnowdevops/ChronoByte-project.git
 cd vprofile-project
 mvn install
 
