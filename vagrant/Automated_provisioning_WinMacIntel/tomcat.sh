@@ -6,7 +6,8 @@ TOMURL="https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.75/bin/apache-tomca
 dnf -y install java-17-openjdk java-17-openjdk-devel
 
 # Install required tools
-dnf install git maven wget -y
+dnf install git  wget -y
+dnf install maven-openjdk17 --allowerasing
 
 # Download and extract Tomcat
 cd /tmp/
