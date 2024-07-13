@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOMURL="https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.75/bin/apache-tomcat-9.0.75.tar.gz"
+TOMURL="https://archive.apache.org/dist/tomcat/tomcat-10/v10.1.17/bin/apache-tomcat-10.1.17.tar.gz"
 
 # Install JDK 17
 dnf -y install java-17-openjdk java-17-openjdk-devel
