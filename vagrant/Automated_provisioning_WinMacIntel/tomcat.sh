@@ -7,7 +7,7 @@ dnf -y install java-17-openjdk java-17-openjdk-devel
 
 # Install required tools
 dnf install git  wget -y
-dnf install maven-openjdk17 --allowerasing
+dnf -y install maven-openjdk17 --allowerasing
 
 # Download and extract Tomcat
 cd /tmp/
